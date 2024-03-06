@@ -3,13 +3,14 @@ package main
 import (
 	"log"
 	"net"
+
 	pb "github.com/ShebinSp/go-grpc/proto"
 	"google.golang.org/grpc"
 )
 
 const (
 	port = ":8080"
-) 
+)
 
 type helloServer struct {
 	pb.GreetServiceServer
