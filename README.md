@@ -38,3 +38,5 @@ The four types of streams are :
   * Bidirectional streaming RPC involves both the client and server sending stream of messages to each other.
   * The client and server communicate asynchronously, with each side sending and receiving messages independently.
   * This type of communication is useful for scenarios where both sides need to send and receive data concurrently.
+
+* To generate greet_grpc.pb.go & greet.pb.go codes, use the command : protoc --go_out=. --go-grpc_out=. proto/greet.proto
