@@ -16,6 +16,7 @@ written in different programming languages to communicate with each other seamle
 Overall, gRPC simplifies the process of building distributed systems by providing developers with a powerful and easy-to-use framework for defining and implementing communication protocols
 between their applications.
 
+-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 
 The four types of streams are :
 
@@ -38,6 +39,7 @@ The four types of streams are :
   * Bidirectional streaming RPC involves both the client and server sending stream of messages to each other.
   * The client and server communicate asynchronously, with each side sending and receiving messages independently.
   * This type of communication is useful for scenarios where both sides need to send and receive data concurrently.
+    
 ---------------------------------------------------------------------------------------------------------------------
 
 * To generate greet_grpc.pb.go & greet.pb.go codes, use the command : protoc --go_out=. --go-grpc_out=. proto/greet.proto
